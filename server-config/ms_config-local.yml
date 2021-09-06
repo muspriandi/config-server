@@ -1,1 +1,4 @@
-hi: Local profile YAML
+server:
+  port: 8082
+
+hi: Local profile YAML 1

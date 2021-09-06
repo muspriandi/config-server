@@ -1,4 +1,4 @@
 server:
-  port: 8888
+  port: 8182
 
 hi: Default profile YAML

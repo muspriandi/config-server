@@ -5,5 +5,7 @@ spring:
         config:
             server:
                 git:
-                    uri: https://github.com/muspriandi/ms_config
+                    uri: https://github.com/muspriandi/config-server
                     search-paths: server-config/
+server:
+  port: 8080
