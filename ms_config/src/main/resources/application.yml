@@ -8,4 +8,4 @@ spring:
                     uri: https://github.com/muspriandi/config-server
                     search-paths: server-config/
 server:
-  port: 8080
+  port: 8888

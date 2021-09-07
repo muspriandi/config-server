@@ -1,4 +1,4 @@
 server:
   port: 8080
 
-hi: Default APP profile YAML
+hi: Default profile YAML
