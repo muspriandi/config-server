@@ -1,5 +1,4 @@
 server:
-  port: 8082
+  port: 8080
 
-hi: Local profile YAML Test
-# test: ENC(UdVZoyDhuPBBxuJNmkoS9w==)
+hi: Local profile YAML
