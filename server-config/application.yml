@@ -2,3 +2,4 @@ server:
   port: 8080
 
 hi: Default profile YAML
+# test: ENC(D96vbdCDhETUTpfqriRELQ==)
