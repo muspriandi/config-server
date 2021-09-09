@@ -11,4 +11,6 @@ spring:
 server:
   port: 8888
 
+hi: ENC(Ish2YuU8q5EmCWw8W/tlZA==)
+
 jasypt.encryptor.password: test123
