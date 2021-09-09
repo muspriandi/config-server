@@ -1,6 +1,8 @@
 hi: Default
 
-management.endpoints.web.exposure.include: "*"
+server.port: 8080
+
+management.endpoints.web.exposure.include: "refresh"
 
 spring:
     application:
