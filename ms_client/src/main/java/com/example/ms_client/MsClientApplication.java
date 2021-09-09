@@ -20,6 +20,9 @@ public class MsClientApplication {
 	@Value("${hi}")
 	private String hello;
 
+	@Value("${test: default val}")
+	private String test;
+
 	public static void main(String[] args) {
 		SpringApplication.run(MsClientApplication.class, args);
 	}
@@ -31,7 +34,7 @@ public class MsClientApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return hello;
+		return hello +" - "+ test;
 	}
 
 }

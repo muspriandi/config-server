@@ -10,3 +10,5 @@ spring:
                     search-paths: server-config/
 server:
   port: 8888
+
+jasypt.encryptor.password: test123
