@@ -40,6 +40,11 @@
 			<artifactId>jasypt-spring-boot-starter</artifactId>
 			<version>3.0.3</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -60,11 +65,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			
-			<!-- <plugin>
+			<plugin>
 				<groupId>com.github.ulisesbocchio</groupId>
 				<artifactId>jasypt-maven-plugin</artifactId>
 				<version>3.0.3</version>
-			  </plugin> -->
+			  </plugin>
 		</plugins>
 	</build>
 
