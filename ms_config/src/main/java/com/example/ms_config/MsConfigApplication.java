@@ -13,19 +13,19 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableConfigServer
 // @EnableEncryptableProperties
-@RestController
+// @RestController
 public class MsConfigApplication {
 
-	@Value("${hi: Default}")
-	private String hello;
+	// @Value("${hi: Default}")
+	// private String hello;
 
 	public static void main(String[] args) {
 		SpringApplication.run(MsConfigApplication.class, args);
 	}
 
-	@GetMapping("/hello")
-	public String hello() {
-		return hello;
-	}
+	// @GetMapping("/hello")
+	// public String hello() {
+	// 	return hello;
+	// }
 
 }

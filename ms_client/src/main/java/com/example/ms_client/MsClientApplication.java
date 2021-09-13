@@ -16,13 +16,7 @@ public class MsClientApplication {
 
 	@Autowired
 	private Environment env;
-
-	@Value("${hi}")
-	private String hello;
-
-	// @Value("${test: default val}")
-	// private String test;
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(MsClientApplication.class, args);
 	}
@@ -30,11 +24,6 @@ public class MsClientApplication {
 	@GetMapping("/env-detail")
 	public String detail() {
 		return env.toString();
-	}
-
-	@GetMapping("/hello")
-	public String hello() {
-		return hello;
 	}
 
 }
