@@ -12,7 +12,3 @@ spring:
             uri: http://localhost:8888
             username: root
             password: root
-
-url-ms-cinema: http://ms-cinema:8080/
-url-ms-schedule: http://ms-schedule:8080/
-url-ms-user: http://ms-user:8080/
