@@ -4,7 +4,7 @@ management.endpoints.web.exposure.include: "refresh"
 
 spring:
     application:
-        name: ms_client
+        name: ms-client
     config:
         import: optional:configserver:http://localhost:8888
     cloud:

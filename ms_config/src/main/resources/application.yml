@@ -14,6 +14,7 @@ spring:
                     # uri: https://github.com/muspriandi/config-server
                     uri: D:\Cinema21\Devs\Common\spring-cloud-config
                     search-paths: server-config/
+                    default-label: main
 server:
   port: 8888
 
